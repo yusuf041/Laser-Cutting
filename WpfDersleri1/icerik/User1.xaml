@@ -1,0 +1,158 @@
+﻿<UserControl x:Class="WpfDersleri1.icerik.User1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfDersleri1.icerik"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--ms grubu -->
+        <Border Grid.Row="0" Background="White" Margin=" 0 0 0 0" >
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+                <Border Grid.Column="0" Grid.Row="0" Margin="10 0 30 0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <StackPanel  >
+
+                        <Button Height="90" Width="90" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="yumuşak_çelik_hava" Click="yumuşak_çelik_hava_Click" >
+                            <Image Source="/images/icons2/metal.png" Height="90" Width="90" />
+                        </Button>
+                        <Label Content="Yumuşak Çelik - Hava"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                    <StackPanel  VerticalAlignment="Center" Margin="0 0 40 0" >
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="yumuşak_çelik_nitrojen" Click="yumuşak_çelik_nitrojen_Click" >
+                            <Image Source="/images/icons2/metal.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Yumuşak Çelik - NİTROJEN"  />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <StackPanel VerticalAlignment="Center" Margin="0 0 40 0">
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="yumuşak_çelik_oksijen" Click="yumuşak_çelik_oksijen_Click" >
+                            <Image Source="/images/icons2/metal.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Yumuşak Çelik - OKSİJEN" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+        <!-- galvanize ve ss -->
+        <Border Grid.Row="1" Background="White" Margin=" 0 0 0 0">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+                <Border Grid.Column="0" Grid.Row="0" Margin="10 0 30 0" >
+                    <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="galvanize_hava" Click="galvanize_hava_Click">
+                            <Image Source="/images/icons2/metalworking.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Galvanize - HAVA"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="0">
+                    <StackPanel  VerticalAlignment="Center" Margin="0 0 40 0" HorizontalAlignment="Center">
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="galvanize_nitrojen" Click="galvanize_nitrojen_Click">
+                            <Image Source="/images/icons2/metalworking2.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Galvanize - Nitrojen" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="0">
+                    <StackPanel VerticalAlignment="Center" Margin="0 0 40 0" HorizontalAlignment="Center">
+                        <Button Width="90" Height="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="paslanmaz_celik_nitrojen" Click="paslanmaz_celik_nitrojen_Click">
+                            <Image Source="/images/icons2/pipe.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Paslanmaz Çelik - Nitrojen" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                </Border>
+
+
+            </Grid>
+
+        </Border>
+        <!-- prinç bakır -->
+        <Border Grid.Row="2" Background="White" Margin=" 0 0 0 0">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+                <Border Grid.Column="0" Grid.Row="0" Margin="10 0 30 0"  >
+                    <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="paslanmaz_celik_hava" Click="paslanmaz_celik_hava_Click">
+                            <Image Source="/images/icons2/pipe2.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Paslanmaz Çelik - Hava"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="0" >
+                    <StackPanel  VerticalAlignment="Center" Margin="0 0 40 0" HorizontalAlignment="Center">
+                        <Button  Width="90" Height="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="bakır_oksijen" Click="bakır_oksijen_Click">
+                            <Image Source="/images/icons2/wire.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Bakır - Oksijen"  />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="0">
+                    <StackPanel VerticalAlignment="Center" Margin="0 0 40 0" HorizontalAlignment="Center">
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}" x:Name="prinç_nitrojen" Click="prinç_nitrojen_Click">
+                            <Image Source="/images/icons2/cymbal.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content="Prinç - Nitrojen " VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="3" Grid.Row="0">
+                    <StackPanel VerticalAlignment="Center" Margin="0 0 40 0" HorizontalAlignment="Center">
+                        <Button Height="90" Width="90" Background="{x:Null}" BorderThickness="0 0 0 0" Style="{DynamicResource icerik_button}"  x:Name="aluminyum" Click="aluminyum_Click">
+                            <Image Source="/images/icons2/aluminium.png" Height="90" Width="90"  />
+                        </Button>
+                        <Label Content=" Aluminyum " VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                </Border>
+
+
+
+            </Grid>
+
+        </Border>
+        
+        
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfDersleri1.paremeter_find"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDersleri1"
+        mc:Ignorable="d"
+         Height="120" Width="500"  WindowStartupLocation="CenterScreen" Loaded="parameter_find">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0">
+            <Label Content="Paremetre Adı:" FontSize="16" FontWeight="Bold"/>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="0">
+            <ComboBox x:Name="kind_of_meterial" SelectionChanged="paremeter_name_chosed">
+                <ComboBoxItem Content="Aluminyum" />
+                <ComboBoxItem Content="BRASS" />
+                <ComboBoxItem Content="GLVNZAIR" />
+                <ComboBoxItem Content="GLVNZN2" />
+                <ComboBoxItem Content="MSAIR"/>
+                <ComboBoxItem Content="MSN2" />
+                <ComboBoxItem Content="MSO2" />
+                <ComboBoxItem Content="SSAIR" />
+                <ComboBoxItem Content="SSN2" />
+            </ComboBox>
+
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="1">
+            <Label Content="Lazer Gucu:" FontSize="16" FontWeight="Bold"/>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="1">
+            <ComboBox x:Name="lazer_power" SelectionChanged="laser_power_chosed">
+               
+            </ComboBox>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="2">
+            <Label Content="Kalınlık:" FontSize="16" FontWeight="Bold"/>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="2">
+            <ComboBox x:Name="thicknesss" SelectionChanged="thickness_chosed" >
+               
+            </ComboBox>
+        </Border>
+
+    </Grid>
+</Window>
