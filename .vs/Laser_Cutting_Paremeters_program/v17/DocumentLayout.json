@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Laser_Cutting_prg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|c:\\laser_cutting_prg\\wpfdersleri1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|solutionrelative:wpfdersleri1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfDersleri1\\MainWindow.xaml",
+              "ToolTip": "C:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfDersleri1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T11:39:27.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

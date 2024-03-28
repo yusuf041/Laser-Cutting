@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="WpfDersleri1.icerik.about_prg"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfDersleri1.icerik"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border Background="White" BorderBrush="Gray" BorderThickness="2" CornerRadius="10">
+            <Grid Margin="10">
+                <ListBox >
+                    <ListBoxItem Margin="10 10 10 10">
+                        <TextBlock>
+                    * Bu program 21.03.2024 tarihinde açık kaynak olarak şahsi githup hesabım üzerinden paylaşılmıştır.
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem Margin="10 10 10 10">
+                        <TextBlock>
+                    * Herhangi bir ticari kaygı güdülmemiştir.
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem Margin="10 10 10 10">
+                        <TextBlock>
+ * İlgili video ve pdfler de aynı şekilde referans kaynak olarak paylaşılmıştır.
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem Margin="10 10 10 10">
+                        <TextBlock>
+                    * Bireysel olarak yapılan arge çalışmalarının ve sahadan elde edinilen tecrübeler doğrultusunda paremetre DB oluşturulmaya çalışılmıştır.
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem Margin="10 10 10 10">
+
+                        <TextBlock>
+* İlgili kesim paremetrelerini ve wizarddan aldığınız verilerini kendi paremetrelerinizi oluşturmak için referans olarak kullanabilirsiniz.
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem Margin="10 10 10 10">
+                        <TextBlock>
+                    * İlgi gösterdiğiniz için teşekkür ederim.
+                        </TextBlock>
+                    </ListBoxItem>
+                </ListBox>
+                <TextBlock Text="Yusuf Kaan İNAN" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,20"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
