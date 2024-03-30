@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Laser_Cutting_prg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|D:\\Laser_Cutting_prg\\wpfdersleri1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|solutionrelative:wpfdersleri1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Laser_Cutting_Paremeter||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|D:\\Laser_Cutting_prg\\wpfdersleri1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|solutionrelative:wpfdersleri1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|d:\\laser_cutting_prg\\wpfdersleri1\\paremeter_find.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|solutionrelative:wpfdersleri1\\paremeter_find.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|D:\\Laser_Cutting_prg\\wpfdersleri1\\classlar\\show_db_datas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|solutionrelative:wpfdersleri1\\classlar\\show_db_datas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3357FD33-E486-497C-85E2-0BF0E946A9A9}|WpfDersleri1\\Laser_Cutting_Paremeter.csproj|d:\\laser_cutting_prg\\wpfdersleri1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Laser_Cutting_Paremeter",
+              "DocumentMoniker": "D:\\Laser_Cutting_prg\\WpfDersleri1\\Laser_Cutting_Paremeter.csproj",
+              "RelativeDocumentMoniker": "WpfDersleri1\\Laser_Cutting_Paremeter.csproj",
+              "ToolTip": "D:\\Laser_Cutting_prg\\WpfDersleri1\\Laser_Cutting_Paremeter.csproj",
+              "RelativeToolTip": "WpfDersleri1\\Laser_Cutting_Paremeter.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-30T04:47:30.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "show_DB_datas.cs",
+              "DocumentMoniker": "D:\\Laser_Cutting_prg\\WpfDersleri1\\classlar\\show_DB_datas.cs",
+              "RelativeDocumentMoniker": "WpfDersleri1\\classlar\\show_DB_datas.cs",
+              "ToolTip": "D:\\Laser_Cutting_prg\\WpfDersleri1\\classlar\\show_DB_datas.cs",
+              "RelativeToolTip": "WpfDersleri1\\classlar\\show_DB_datas.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:55:24.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "paremeter_find.xaml.cs",
+              "DocumentMoniker": "D:\\Laser_Cutting_prg\\WpfDersleri1\\paremeter_find.xaml.cs",
+              "RelativeDocumentMoniker": "WpfDersleri1\\paremeter_find.xaml.cs",
+              "ToolTip": "D:\\Laser_Cutting_prg\\WpfDersleri1\\paremeter_find.xaml.cs",
+              "RelativeToolTip": "WpfDersleri1\\paremeter_find.xaml.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAuwIsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T06:24:53.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfDersleri1\\MainWindow.xaml",
+              "ToolTip": "D:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfDersleri1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-29T06:23:59.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfDersleri1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Laser_Cutting_prg\\WpfDersleri1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfDersleri1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAA+wFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T06:23:58.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
