@@ -1,4 +1,4 @@
-# Laser-Cutting   #laser   #cutting paremeters 
+# Laser-Cutting   #laser   #cutting paremeters #C#-WPF 
 Bu program fiber lazer kesim paremetreleri oluşturmak için referans mahiyetinde hazırlanmıştır.
 Kullanılan tüm kaynak(video,pdf,DB,vb) referans mahiyetindedir.
 İlgi gösterdiğiniz için teşekkürler..
